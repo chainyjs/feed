@@ -30,13 +30,13 @@ Chainy action that sets the chain data with the parsed results of a request, inc
 <!-- /DESCRIPTION -->
 
 
-Accepts a single argument, that can be a url string, a url function, or an object of options to send to feedr
-
-If the url property is a function, it will be called with the current chain data and the return value will be used as the url
+Optionally accepts a single object argument containing options to be forwarded onto [feedr's readFeed method](https://github.com/bevry/feedr#configuration)
 
 ``` javascript
 require('chainy-core').create().require('set feed log')
-	.set('http://some.url').feed().log()  // result data of some url
+	.set('http://some.url')
+	.feed()
+	.log()  // result data of some url
 ```
 
 <!-- /CHAINY_DOCUMENTATION -->
