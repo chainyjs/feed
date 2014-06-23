@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# Feed action for [ChainyJS](http://chainy.bevry.me)
+# Feed action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -33,7 +33,7 @@ Chainy action that sets the chain data with the parsed results of a request, inc
 Optionally accepts a single object argument containing options to be forwarded onto [feedr's readFeed method](https://github.com/bevry/feedr#configuration)
 
 ``` javascript
-require('chainy-core').create().require('set feed log')
+require('chainy').create().require('set feed log')
 	.set('http://some.url')
 	.feed()
 	.log()  // result data of some url
@@ -53,7 +53,7 @@ require('chainy-core').create().require('set feed log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-feed')`
 - Install: `npm install --save chainy-plugin-feed`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-feed@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-feed@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-feed')`
@@ -101,8 +101,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-feed/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/feed/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-feed/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 

@@ -1,11 +1,12 @@
 {
-  "title": "Feed action for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Feed action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-feed",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chainy action that sets the chain data with the parsed results of a request, includes caching",
   "homepage": "https://github.com/chainy-plugins/feed",
   "keywords": [
     "chainy-action",
+    "chainy-standalone",
     "chainy-modifier",
     "chainy-plugin",
     "chainy-extension",
@@ -30,7 +31,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/feed/issues"
   },
@@ -42,15 +45,15 @@
     "node": ">=0.4"
   },
   "dependencies": {
-    "feedr": "~2.9.0"
+    "feedr": "^2.9.0"
   },
   "peerDependencies": {
-    "chainy-core": "*"
+    "chainy-core": "1"
   },
   "devDependencies": {
     "chainy-plugin-set": "*",
-    "chainy-core": "*",
-    "joe": "~1.4.0",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
     "projectz": "~0.3.11"
